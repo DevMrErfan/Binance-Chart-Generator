@@ -1,4 +1,12 @@
 <?php
+function sendRequest($url) {
+    $ch = curl_init();
+    curl_setopt($ch, CURLOPT_URL, $url);
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+    $output = curl_exec($ch);
+    curl_close($ch);
+    return $output;
+}
 // Function to fetch candle data from Binance API
 function fetchCandlesData($symbol, $timeframe) {
     $limit = 120; // Limit for data points

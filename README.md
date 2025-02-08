@@ -4,7 +4,7 @@ Crypto Chart Generator is a simple PHP-based tool that allows you to fetch real-
 
 Here is an example of the chart generated from the Binance API:
 
-![Chart Example](chart.png)
+![Chart Example](photo/chart.png)
 
 ✨ Features:
 Fetches candlestick data from the Binance API for a given cryptocurrency symbol (e.g., BTC/USDT) 📈
