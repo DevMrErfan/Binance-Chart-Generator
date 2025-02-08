@@ -1,4 +1,5 @@
 🚀 Crypto Chart Generator - CreateChart-In-Binance 🚀
+
 Crypto Chart Generator is a simple PHP-based tool that allows you to fetch real-time candlestick data from the Binance API and visualize it through a generated chart. This project helps users monitor cryptocurrency price fluctuations in a visually appealing way. 📉📊
 
 Here is an example of the chart generated from the Binance API:
@@ -8,19 +9,23 @@ Here is an example of the chart generated from the Binance API:
 ✨ Features:
 Fetches candlestick data from the Binance API for a given cryptocurrency symbol (e.g., BTC/USDT) 📈
 Generates and displays live candlestick charts 🖼️
+
 Supports different time intervals (e.g., 1 hour, 1 day) ⏱️
 Simple and easy-to-use code for developers to integrate into their applications 🔧
 Stunning visual experience with cryptocurrency data 💻
+
 🔧 Technologies Used:
 PHP: The main backend language for fetching data and generating charts 🖥️
 Binance API: For retrieving real-time candlestick data 🔗
 GD Library: For generating candlestick chart images 📊
 JSON: For data handling between the Binance API and the PHP script 📂
+
 📚 How It Works:
 The user defines the cryptocurrency symbol (e.g., BTCUSDT) 💡
 The script fetches candlestick data from the Binance API for the specified symbol and interval 📡
 The data is parsed and processed to create a visual candlestick chart 🔍
 The generated chart is saved as a PNG image 📸
+
 ⚙️ Requirements:
 To run this project, ensure you have the following:
 
@@ -30,21 +35,13 @@ An internet connection to fetch data from the Binance API 🌐
 🚀 Setup Instructions:
 Clone the repository:
 
-bash
-Copy
-Edit
 git clone https://github.com/DevMrErfan/CreateChart-In-Binance.git
 cd CreateChart-In-Binance
 Set up the files: Ensure the src/ folder contains the following PHP files:
 
 Candeldata.php: Fetches the candlestick data from Binance.
 createChart.php: Generates the chart image based on the data.
-Run the script: After setting up, you can run the index.php file to fetch the data and generate the chart:
 
-bash
-Copy
-Edit
-php index.php
 View the chart: The generated chart image will be saved as chart.png in the project folder. You can open this file to view the generated candlestick chart. 📂
 
 ✨ Customization:
